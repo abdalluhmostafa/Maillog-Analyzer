@@ -12,7 +12,8 @@ The script scans the log files, groups the lines by letters. Records are highlig
 It is possible to filter messages by sender and / or sender, the -f and -t keys, respectively.
 
 
-# Using the -d switch, you can specify the date or date range for which to display letters. Dates can be set in different ways, for example:
+# Using 
+the -d switch, you can specify the date or date range for which to display letters. Dates can be set in different ways, for example:
 
 
 12.1.2010-15.1.2010 - show letters from the 12th to the 15th inclusively. 01/10/2010 - - letters that have passed since the 10th and later. -12.01 - the opposite of the previous option, the 12th and earlier. If the year or month is omitted, then the current ones are substituted. - - in general, all that happened on January 1, 2010 is for January 1, 2010. By default, letters for today are displayed.
